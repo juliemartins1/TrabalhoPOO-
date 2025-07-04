@@ -16,7 +16,7 @@ public class Inimigo {
 
     public Inimigo(int x, int y) {
         this.posicao = new Ponto(x, y);
-        this.velocidade = 1;
+        this.velocidade = 2;
         if (random.nextBoolean()) {
     this.direcaoX = 1;
 } else {
